@@ -296,7 +296,7 @@ private const val BASE_URL = "http://192.168.x.x:8080/"
 
 ## Key Decisions
 
-- Firebase Firestore used for chat instead of third-party SDK (Stream Chat had integration issues)
+- Firebase Firestore used for chat instead of third-party SDK
 - FCM token saved after login, also cached in EncryptedSharedPreferences if user was not logged in at token refresh time
 - BlockCheckInterceptor handles 403 ACCOUNT_BLOCKED globally across all API calls
 - AppState uses MutableStateFlow so block/unblock works from any screen instantly
