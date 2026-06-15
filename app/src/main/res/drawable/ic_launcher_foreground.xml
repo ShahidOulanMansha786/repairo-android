@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Expand the logo beyond the 108dp canvas edges to fill the circular safe zone edge-to-edge -->
+    <item
+        android:drawable="@drawable/app_logo"
+        android:top="-18dp"
+        android:bottom="-18dp"
+        android:left="-18dp"
+        android:right="-18dp" />
+</layer-list>
