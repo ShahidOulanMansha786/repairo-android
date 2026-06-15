@@ -282,13 +282,13 @@ sequenceDiagram
 
 ## Environment Setup
 
-In `RetrofitClient.kt` base URL set karo:
+In `RetrofitClient.kt` set BASE URL:
 
 ```kotlin
-// Emulator ke liye
+// For emulator
 private const val BASE_URL = "http://10.0.2.2:8080/"
 
-// Physical device ke liye apna machine ka local IP use karo
+// For physical device use local IP (WIFI)
 private const val BASE_URL = "http://192.168.x.x:8080/"
 ```
 
